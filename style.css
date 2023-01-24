@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.number-input{
+    width: 100%;
+    background-color: black;
+    color: #ccc;
+    padding: 20px 2px;
+    text-align: end;
+}
+
+.container{
+    max-width: 300px;
+    margin: 60px auto;
+}
+
+.grid-button{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.button{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.orange{
+    background-color: rgb(230, 156, 19);
+}
+
+#span2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#span3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.text{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.inputtext{
+    font-size: 1.7rem;
+}
